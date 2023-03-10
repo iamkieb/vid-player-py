@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 #Read File
-new_capture = cv2.VideoCapture('https://github.com/iamkieb/vid-player-py/blob/main/test.mp4')
+new_capture = cv2.VideoCapture('test.mp4')
 
 #check if the file opened
 if (new_capture.isOpened()==False):
